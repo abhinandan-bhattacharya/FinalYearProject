@@ -1,0 +1,44 @@
+<!-- <nav class="navbar navbar-default">
+    <div class="col-xs-2">
+    <ul class="nav navbar-nav">
+        <a routerLink="form">Home</a>
+    </ul>
+</div>
+<div>
+    <ul>    
+         <a routerLink="list">List</a>
+    </ul>
+</div>
+</nav> -->
+<!-- <div class="container">
+    <button class="btn btn-primary" [routerLink]="['form']">ADD</button>
+</div>  -->
+
+<br>
+<div>
+    <button class="btn btn-primary" (click)="add()"> Add</button>
+</div>
+<br>
+<br>
+<div>
+    <table style="width:90%">
+        <tr>
+            <th class="hidden">Id</th>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Department</th>
+            <th>Email</th>
+        </tr>
+        <tr *ngFor="let std of abc">
+            <td class="hidden"></td>
+            <td>{{std.firstName}}</td>
+            <td>{{std.roll}}</td>
+            <td>{{std.dept}}</td>
+            <td>{{std.email}}</td>
+            <td>
+                <button class="btn btn-danger" (click)="deleteUser(std)"> Delete</button>
+                <button class="btn btn-primary" (click)="editUser(std)" style="margin-left: 20px;"> Edit</button>
+            </td>
+        </tr>
+    </table>
+</div>

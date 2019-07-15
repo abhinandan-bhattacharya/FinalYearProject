@@ -1,0 +1,25 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "firstName": "Sumit",
+      "roll": "15",
+      "email": "sumit@gmail.com",
+      "dept": "ME"
+    },
+    {
+      "id": 2,
+      "firstName": "Vikas",
+      "roll": "33",
+      "email": "aj@gmail.com",
+      "dept": "ECE"
+    },
+    {
+      "id": 3,
+      "firstName": "Abhinandan",
+      "roll": "22",
+      "email": "abhinandan5002@gmail.com",
+      "dept": "CSE"
+    }
+  ]
+}
